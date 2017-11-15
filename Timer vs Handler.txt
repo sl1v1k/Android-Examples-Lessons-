@@ -1,0 +1,7 @@
+1. While rescheduling Handler is very easy, you can not reschedule Timer
+
+2. In Handler you can attach to any Runnable but Timer schedule for only one TimerTask
+
+3. TimerTask is purely background task so you can not update UserInterface, but that's not true for Handler's Runnables
+
+4. Timer tends to leak more memory compare to Handler see the graph of object retains by timer and Handler. It will increase rapidly for Timer if you are creating and scheduling new task.

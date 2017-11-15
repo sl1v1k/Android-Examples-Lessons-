@@ -1,0 +1,7 @@
+https://github.com/danielpassos/android-animation-drawable
+https://github.com/daimajia/AndroidViewAnimations
+https://github.com/daimajia/AnimationEasingFunctions
+https://github.com/romainguy/google-io-2014
+https://github.com/lgvalle/Material-Animations
+https://github.com/jasonostrander/Sample-Android-Animation-Code
+https://github.com/SueSmith/android-tween-animation

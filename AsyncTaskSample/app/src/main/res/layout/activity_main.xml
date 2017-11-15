@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start Thread"
+        android:onClick="onClickThread"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start view Thread"
+        android:onClick="onClickViewThread"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start Handler Thread"
+        android:onClick="onClickHandlerThread"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start handler async Thread"
+        android:onClick="onClickHandlerAsyncThread"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start asynctask"
+        android:onClick="onClickAsyncThread"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start asynctask THREAD_POOL_EXECUTOR Thread"
+        android:onClick="onClickAsyncThreadPool"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start asynctask SERIAL_EXECUTOR Thread"
+        android:onClick="onClickAsyncThreadSerial"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start activity"
+        android:onClick="startSecondActivity"/>
+
+</LinearLayout>
